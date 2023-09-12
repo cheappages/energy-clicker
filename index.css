@@ -1,0 +1,19 @@
+.buy {
+  border-color: transparent;
+  border-radius: 5%;
+  background-color: yellow;
+}
+
+#bolt {
+  border-color: transparent;
+  background-color: transparent;
+  border-radius: 100%;
+}
+
+h1, h2, h3, b, p {
+  font-family: 'Segoe UI', sans-serif, Arial;
+}
+
+li {
+  list-style: none;
+}

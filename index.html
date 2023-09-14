@@ -1,35 +1,77 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
+    <title>Electricity Clicker</title>
   </head>
   <body>
-    <button id="bolt">
-      <img width="225px" height="225px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiK9P5VVUqjEvJanZoPqz4uEppz406lA3ALw&usqp=CAU">
-    </button>
-    <section id="stats">
-      <h2>
-        <span id="energy">0</span> Electricity
-      </h2>
-      <h2>
-        <span id="energy/sec">0</span> Electricity/sec
-      </h2>
-    </section>
+    <center>
+      <button id="bolt">
+        <img width="225px" height="225px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiK9P5VVUqjEvJanZoPqz4uEppz406lA3ALw&usqp=CAU">
+      </button>
+      <section id="stats">
+        <h2>
+          <span id="energy">0</span> Electricity
+        </h2>
+        <h2>
+          <span id="energy/sec">0</span> Electricity/sec
+        </h2>
+      </section>
+      <h3>
+         *********************************************************
+      </h3>
+    </center>
     <section id="buildings">
       <ul>
         <li>
           <h3>
             Hand-cranked generator
           </h3>
-          <b><span id="hCP">10</span> Electricity</b>
+          <b><span id="hCP">20</span> Electricity</b>
           <br><br>
           <b><span id="hCO">0</span> Owned</b>
           <p>
             You gotta start somewhere. 0.5 electricity/sec
           </p>
           <button class="buy" id="hC">
-            Buy
+            BUY
+          </button>
+        </li>
+        <li class="sep">
+          <h3>
+             ***********************************
+          </h3>
+        </li>
+         <li>
+          <h3>
+            Power Bank
+          </h3>
+          <b><span id="pBP">150</span> Electricity</b>
+          <br><br>
+          <b><span id="pBO">0</span> Owned</b>
+          <p>
+            A cheap powerbank made in China. 2.5 electricity/sec
+          </p>
+          <button class="buy" id="pB">
+            BUY
+          </button>
+        </li>
+        <li class="sep">
+          <h3>
+             ***********************************
+          </h3>
+        </li>
+         <li>
+          <h3>
+            Tabletop Wind Turbine 
+          </h3>
+          <b><span id="tWTP">1050</span> Electricity</b>
+          <br><br>
+          <b><span id="tWTO">0</span> Owned</b>
+          <p>
+            A small wind turbine. 12.5 electricity/sec
+          </p>
+          <button class="buy" id="tWT">
+            BUY
           </button>
         </li>
       </ul>
